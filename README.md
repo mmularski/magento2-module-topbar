@@ -11,14 +11,6 @@ Module Topbar adds simple topbar on top of the page with 3 sections:
 But default module destiny was to test it via MTF(Magento Testing Framework).
 
 ## Who is developing Topbar ?
-<p align="center">
-    <a href="https://divante.co/">
-        <img height="110" src="http://oex.pl/content/uploads/2015/05/logo_Divante-1.jpg">
-    </a>
-</p>
-
-Divante has been delivering the highest quality e-commerce solutions since its inception in 2008. Our main focus is to create the most elegant and effective e-commerce services. We connect the latest technology with a great business approach.
-Visit our website for more information  <a href="https://divante.co/">Divante.co</a> 
 
 Developer: Marek Mularczyk
 
