@@ -19,7 +19,7 @@ class AssertTopbarVisibleOnFrontend extends AbstractConstraint
     /**
      * Assert that topbar is not visible on frontend
      *
-     * @param HomePage   $homePage
+     * @param HomePage $homePage
      *
      * @return void
      */

@@ -26,7 +26,7 @@ class AssertConfigurationSaveMessage extends AbstractConstraint
      * Assert that success message is displayed after config save.
      *
      * @param SystemConfigEdit $systemConfigEdit
-     * @param AdminCache       $adminCache
+     * @param AdminCache $adminCache
      *
      * @return void
      */

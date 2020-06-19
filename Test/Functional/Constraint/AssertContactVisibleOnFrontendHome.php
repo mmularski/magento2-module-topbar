@@ -21,7 +21,7 @@ class AssertContactVisibleOnFrontendHome extends AbstractConstraint
     /**
      * Assert that topbar is visible with good config
      *
-     * @param HomePage   $homePage
+     * @param HomePage $homePage
      * @param ConfigData $configData
      *
      * @return void
@@ -32,7 +32,7 @@ class AssertContactVisibleOnFrontendHome extends AbstractConstraint
         $topbar = $homePage->getTopbar();
 
         $emailElement = $topbar->getEmailElement();
-        $emailValue   = current($emailElement->getElements('span', Locator::SELECTOR_TAG_NAME));
+        $emailValue = current($emailElement->getElements('span', Locator::SELECTOR_TAG_NAME));
 
         $expectedValue = current($configData->get('email_config_information'))['value'];
 

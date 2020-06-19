@@ -60,10 +60,10 @@ class ChangeContactSettingsForTopbarTest extends Injectable
 
         /* Find field in admin configuration */
         $section = $this->configData->get('email_config_information');
-        $keys    = array_keys($section);
-        $parts   = explode('/', $keys[0], 3);
+        $keys = array_keys($section);
+        $parts = explode('/', $keys[0], 3);
 
-        $tab   = $parts[0];
+        $tab = $parts[0];
         $group = $parts[1];
         $field = $parts[2];
 
@@ -87,10 +87,10 @@ class ChangeContactSettingsForTopbarTest extends Injectable
 
         /* Find field in admin configuration */
         $section = $this->configData->get('email_config_information');
-        $keys    = array_keys($section);
-        $parts   = explode('/', $keys[0], 3);
+        $keys = array_keys($section);
+        $parts = explode('/', $keys[0], 3);
 
-        $tab   = $parts[0];
+        $tab = $parts[0];
         $group = $parts[1];
         $field = $parts[2];
 

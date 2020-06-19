@@ -19,7 +19,7 @@ class Topbar extends Template
      * Topbar constructor.
      *
      * @param Template\Context $context
-     * @param array            $data
+     * @param array $data
      */
     public function __construct(
         Template\Context $context,
@@ -38,7 +38,7 @@ class Topbar extends Template
 
     /**
      * @param string $path
-     * @param array  $params
+     * @param array $params
      *
      * @return string
      */

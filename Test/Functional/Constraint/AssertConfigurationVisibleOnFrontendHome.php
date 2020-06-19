@@ -21,7 +21,7 @@ class AssertConfigurationVisibleOnFrontendHome extends AbstractConstraint
     /**
      * Assert that topbar is visible with good config
      *
-     * @param HomePage   $homePage
+     * @param HomePage $homePage
      * @param ConfigData $configData
      *
      * @return void
@@ -32,7 +32,7 @@ class AssertConfigurationVisibleOnFrontendHome extends AbstractConstraint
         $topbar = $homePage->getTopbar();
 
         $phoneElement = $topbar->getPhoneElement();
-        $phoneValue   = $phoneElement->getElements('span', Locator::SELECTOR_TAG_NAME)[1];
+        $phoneValue = $phoneElement->getElements('span', Locator::SELECTOR_TAG_NAME)[1];
 
         $expectedValue = current($configData->get('phone_config_information'))['value'];
 

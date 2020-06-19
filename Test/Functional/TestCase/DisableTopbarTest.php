@@ -42,7 +42,7 @@ class DisableTopbarTest extends Injectable
      * @var array
      */
     protected $selector = [
-        'tab'   => null,
+        'tab' => null,
         'group' => null,
         'field' => null,
     ];
@@ -70,9 +70,9 @@ class DisableTopbarTest extends Injectable
 
         /* Find field in admin configuration */
         $section = $configuration['path'];
-        $parts   = explode('/', $section, 3);
+        $parts = explode('/', $section, 3);
 
-        $this->selector['tab']   = $parts[0];
+        $this->selector['tab'] = $parts[0];
         $this->selector['group'] = $parts[1];
         $this->selector['field'] = $parts[2];
 
